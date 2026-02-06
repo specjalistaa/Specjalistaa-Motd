@@ -17,6 +17,7 @@ public final class Main extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        getCommand("smotd").setExecutor(this);
         saveDefaultConfig();
         getLogger().info(ChatColor.GREEN + "Pomyślnie załadowano plugin!");
     }
