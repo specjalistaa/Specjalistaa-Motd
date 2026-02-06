@@ -1,0 +1,10 @@
+name: Specjalistaa-motd
+version: '1.0-SNAPSHOT'
+main: pl.specjalistaa.motd.Main
+api-version: '1.21'
+authors: [ Specjalistaa ]
+commands:
+  smotd:
+permissions:
+  specjalistaa.motd.reload:
+    default: op
