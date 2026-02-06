@@ -1,5 +1,5 @@
 # Specjalistaa-Motd
-Plugin na własne motd serwera na silnki:
+Plugin na własne motd serwera
 ## Permisja: "specjalistaa.motd.reload" wystarczy op
 Konfiguracja: motd-title: "              &9&lSpecjalistaa-motd\n          &9Autorski &3plugin&9 na motd!"
 ## Wspierane Silniki
